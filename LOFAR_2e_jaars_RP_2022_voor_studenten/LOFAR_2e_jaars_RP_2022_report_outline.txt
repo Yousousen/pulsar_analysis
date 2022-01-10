@@ -1,0 +1,45 @@
+Title:
+- e.g., "LOFAR observations of a binary millisecond pulsar"
+
+Abstract:
+- 200 word description of the project and results
+
+Introduction:
+- Goal: give the necessary background and motivation
+
+- 2-3 paragraphs about neutron stars and pulsars
+- 1-2 paragraphs on millisecond pulsars (how are they formed?)
+- 1 paragraph about what we can learn about/from pulsars
+- 1 figure showing a pulsar (all figures should have captions)
+
+Observations:
+- Goal: describe the instrument and observational technique, as well as the data that was analysed
+
+- 1 paragraph describing LOFAR
+- 1 paragraph explaining how we can observe pulsars with LOFAR
+- 1-2 paragraphs describing the observations you analysed
+- 1 figure showing LOFAR
+- 1 table summarising the observations
+
+Analysis:
+- Goal: describe the analysis that was done, but not yet the results thereof
+
+- 2-3 paragraphs describing how you simulated pulsar data
+- 2 paragraphs describing the analysis of PSR B1919+21 (single data set)
+- 2-3 paragraphs describing the analysis of PSR J1810+1744 (multiple data sets)
+
+Results:
+- Goal: describe the results, but not yet the interpretation
+
+- 1 paragraph describing the simulation results (and pointing to the relevant figures)
+- 1 paragraph describing the PSR B1919+21 results (and pointing to the relevant figures)
+- 2-3 paragraphs describing the PSR J1810+1744 results (including the mass determination)
+- 2 figures showing pulsar simulations (timeseries and Fourier transform)
+- 2 figures showing the PSR B1919+21 results (pulse stack and Fourier transform)
+- 3 figures showing the PSR J1810+1744 results (Fourier transform, spin frequency vs. time and mass plot)
+
+Discussion & Conclusions:
+- Goal: explain what the results mean and summarise the paper
+
+- 2-3 paragraphs comparing PSR J1810+1744 to other pulsars (consider spin rate, orbital period, companion mass, and eclipsing) - see: https://www.atnf.csiro.au/research/pulsar/psrcat/
+- 1 paragraph given a summary and prospects for other analyses that could be done

@@ -1,0 +1,27 @@
+ Data file name without suffix          =  L83089_SAP0_BEAM0_DM39.66
+ Telescope used                         =  LOFAR
+ Instrument used                        =  HBA_110_190
+ Object being observed                  =  J1810+1715
+ J2000 Right Ascension (hh:mm:ss.ssss)  =  18:10:37.0000
+ J2000 Declination     (dd:mm:ss.ssss)  =  17:44:37.0000
+ Data observed by                       =  Unknown
+ Epoch of observation (MJD)             =  56300.329923967779905
+ Barycentered?           (1 yes, 0 no)  =  1
+ Number of bins in the time series      =  8800000    
+ Width of each time series bin (sec)    =  2.04799998755334e-05
+ Any breaks in the data? (1 yes, 0 no)  =  1
+ On/Off bin pair #  1                   =  0          , 8467366    
+ On/Off bin pair #  2                   =  8799999    , 8799999    
+ Type of observation (EM band)          =  Radio
+ Beam diameter (arcsec)                 =  0
+ Dispersion measure (cm-3 pc)           =  39.66
+ Central freq of low channel (MHz)      =  109.9609375
+ Total bandwidth (MHz)                  =  68.359375
+ Number of channels                     =  350
+ Channel bandwidth (MHz)                =  0.1953125
+ Data analyzed by                       =  hessels
+ Any additional notes:
+    Project ID , Date: 2013-01-08T08:00:00.
+    1 polns were not summed.  Samples have 8 bits.
+
+

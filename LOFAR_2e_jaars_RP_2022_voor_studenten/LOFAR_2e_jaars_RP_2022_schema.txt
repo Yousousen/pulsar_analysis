@@ -1,0 +1,142 @@
+> Project:
+
+De radiosterrenkunde van pulsars met LOFAR
+Jason Hessels (ASTRON/UvA)
+
+> Materialen:
+
+Dropbox: http://tiny.cc/84a3pz
+
+- De_radiosterrenkunde_van_pulsars_met_LOFAR_2022.doc
+  - Algemeen project beschrijving
+
+- Data_Pulsar1
+  - LOFAR data van een heldere pulsar
+  - Eigenlijk is dit de eerste pulsar die ooit ondekt is - in 1967 door Jocelyn Bell
+  - .dat bestand: de data zelf (een tijdserie met DM = 12.44 pc/cc)
+  - _Mask.dat bestand: hetzelfde, maar dan met menselijk gemaakt interferentie er ook uitgehaald
+  - .inf bestand: `metadata' (beschrijving van de eigenschappen van de data)
+
+- Data_Pulsar2
+  - LOFAR data van een pulsar die ik zelf hebt ondekt rond 2010
+  - De verschillende bestanden zijn data sets die op verschillende tijden opgenomen werden
+  - .dat bestanden: de data zelf (tijdseries met DM = 39.66 pc/cc)
+  - .inf bestanden: `metadata' (beschrijving van de eigenschappen van de data)
+
+- Hessels_2e_jaars_Intro.pdf
+  - Presentatie met wetenschappelijk achtergrond en analyse methodiek
+
+- Hessels_Pulsar_Searching.pdf
+  - Subset van de sheets, gefocust op de methode van pulsar searching
+
+- LOFAR_2e_jaars_RP_2022_report_outline.txt
+  - Gesuggereerd outline voor de rapporten
+
+- aa16681-11.pdf
+  - Artikel waarin wordt uitgelegd hoe je pulsars met LOFAR kan waarneemen
+
+- aa20873-12_lores.pdf
+  - Artikel waarin LOFAR wordt beschreven
+
+- pulsar_handbook_searching.pdf
+  - Drie hoofdstukken van de Pulsar Handbook (Lorimer & Kramer)
+  - Hoofdstuk 5: hoe je pulsar meet met een radiotelescoop
+  - Hoofdstuk 6: hoe je nieuwe pulsars kan vinden
+  - Hoofdstuk 7: hoe je een pulsar kan characteriseren
+  
+> Studenten:
+
+Groep 1:
+Kaydo Alders - kaydo.alders@student.uva.nl
+Elèni Mik - eleni.mik@student.uva.nl
+
+Groep 2:
+Iris Draijer - iris.draijer@student.uva.nl
+Ruben de Jongh - ruben.dejongh@student.uva.nl
+
+Groep 3:
+Hugo Veldhuis - hugo.veldhuis@student.uva.nl
+Rosa Verpoort - rosa.verpoort@student.uva.nl
+
+Groep 4:
+Elizabeth Muhsin - elizabeth.muhsin1@student.uva.nl
+Rembrand Ruppert - rembrand.ruppert@student.uva.nl
+
+> Schema:
+
+Zoom room voor sessies met begeleider: https://uva-live.zoom.us/j/4441982788
+
+NB: dinsdag t/m donderdag kunnen we ook overleggen bij API/UvA
+
+*Week 1 (10-14 januari):
+
+maandag 10 januari:
+
+Zoom 9:00:
+- Introductie & korte lezing
+
+Zoom 10:30
+- Werkplanning voor de dag:
+  - Pulsar tijdseries simuleren
+  - Pulsar terugvinden met Fourier transformatie
+  - Pulsar tijdserie "vouwen" op pulsperiode
+
+Zoom 17:00:
+- Hoe staat het werk?
+
+dinsdag 11 januari:
+
+Zoom 9:30:
+- Werkplanning voor de dag:
+  - Pulsar in dubbelstersysteem simuleren
+
+Zoom 14:00:
+- Hoe staat het	werk?
+
+woensdag 12 januari:
+
+Zoom 10:30:
+- Werkplanning voor de dag:
+  - Pulsar terugvinden in echte LOFAR data
+
+Zoom 13:30:
+- Hoe staat het werk?
+
+Zoom 17:00:
+- Hoe staat het werk?
+
+donderdag 13 januari:
+
+Zoom 9:30:
+- Werkplanning voor de dag:
+  - Pulsar characteriseren
+
+Zoom 13:00:
+- Hoe staat het werk?
+
+Zoom 17:00:
+- Hoe staat het werk?
+
+vrijdag 14 januari:
+
+Zoom 12:45:
+- Outline verslag en hoe verder
+
+NB: we kunnen ook desnoods in Week 2 contact met elkaar hebben als er nog vragen zijn
+
+*Week 2 (17-21 januari):
+
+- Vak `Quantum Concepten'
+
+*Week 3 (24-28 januari):
+
+- Groepsessie (25 januari)
+- Verslag schrijven (deadline eerste versie 30 januari)
+- Presentatie voorbereiden en oefenen samen met begeleider
+
+*Week 4 (31 januari - 4 februari):
+
+- Terugkoppeling van begeleider op 1e versie verslag
+- Presentatie voorbereiden
+- Symposium (1 februari)
+- Verslag schrijven (deadline definitieve versie 6 februari)
