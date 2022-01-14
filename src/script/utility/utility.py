@@ -1,3 +1,5 @@
+import numpy as np
+
 def short_list(lst):
     """
     Returns a string that is a short representation of list lst; useful for long lists.
@@ -28,3 +30,9 @@ def slice_string_at_char(str, char):
 
 def get_metadata_item(metadata, item):
     return slice_string_at_char(elements_containing_string(item, metadata)[0], '=')[1]
+
+def err_period(frequencies):
+    frequency_mean = np.mean(frequencies)
+    frequency_std = np.std(frequencies)
+    error = (frequency_std)/(frequency_mean**2)
+    return error
