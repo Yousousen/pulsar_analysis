@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    334533,       7423]
-NotebookOptionsPosition[    319209,       7180]
-NotebookOutlinePosition[    319838,       7199]
-CellTagsIndexPosition[    319795,       7196]
+NotebookDataLength[    341001,       7561]
+NotebookOptionsPosition[    325162,       7311]
+NotebookOutlinePosition[    325791,       7330]
+CellTagsIndexPosition[    325748,       7327]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -7173,6 +7173,137 @@ Cell["(601.41180\\pm 0.00030)\\text{per }\\text{second}", "Output",
   3.852543556301528*^9, 3.8525469254892883`*^9},
  CellLabel->
   "Out[928]//TeXForm=",ExpressionUUID->"b273240f-3df4-4f47-8ac8-b1888fe43fc8"]
+}, Open  ]],
+
+Cell["Error of the first pulsar", "Text",
+ CellChangeTimes->{{3.8525508856250896`*^9, 
+  3.852550887992669*^9}},ExpressionUUID->"41cf006f-1342-486f-a5c8-\
+6ec02f149e45"],
+
+Cell["From Eleni and python", "Text",
+ CellChangeTimes->{{3.852551028129583*^9, 
+  3.852551032525794*^9}},ExpressionUUID->"83ea2d8d-e244-4d63-ba8e-\
+9b881123b3b0"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"pp1", "=", 
+   RowBox[{"1.3377139183200188", 
+    NamespaceBox["LinguisticAssistant",
+     DynamicModuleBox[{Typeset`query$$ = "seocnds", Typeset`boxes$$ = 
+      TemplateBox[{
+        InterpretationBox["\[InvisibleSpace]", 1], "\"s\"", "seconds", 
+        "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
+      Typeset`allassumptions$$ = {{
+       "type" -> "Clash", "word" -> "seocnds", "template" -> 
+        "Assuming \"seocnds\" is a unit${separator}Use as ${desc} instead", 
+        "count" -> "2", "pulldown" -> "false", "default" -> 
+        "{\"C\", \"seocnds\"} -> {\"Unit\", \"dflt\"}", 
+        "Values" -> {{
+          "name" -> "Unit", "desc" -> "a unit", "input" -> 
+           "{\"C\", \"seocnds\"} -> {\"Unit\"}"}, {
+          "name" -> "Word", "desc" -> "a word", "input" -> 
+           "{\"C\", \"seocnds\"} -> {\"Word\"}"}}}, {
+       "type" -> "Unit", "word" -> "seocnds", "template" -> 
+        "Assuming seconds of time for \"seocnds\"${separator}Use ${desc} \
+instead", "count" -> "2", "pulldown" -> "false", "default" -> 
+        "\"UnitClash\" -> {\"seocnds\", {\"Seconds\", \"dflt\"}}", 
+        "Values" -> {{
+          "name" -> "Seconds", "desc" -> "seconds of time", "input" -> 
+           "\"UnitClash\" -> {\"seocnds\", {\"Seconds\"}}"}, {
+          "name" -> "Arcseconds", "desc" -> "seconds of arc", "input" -> 
+           "\"UnitClash\" -> {\"seocnds\", {\"Arcseconds\"}}"}}}}, 
+      Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+      Typeset`querystate$$ = {
+      "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+       0.8650781`7.388600311212694, "Messages" -> {}}}, 
+      DynamicBox[ToBoxes[
+        AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+         Dynamic[Typeset`query$$], 
+         Dynamic[Typeset`boxes$$], 
+         Dynamic[Typeset`allassumptions$$], 
+         Dynamic[Typeset`assumptions$$], 
+         Dynamic[Typeset`open$$], 
+         Dynamic[Typeset`querystate$$]], StandardForm],
+       ImageSizeCache->{83., {10.5, 17.5}},
+       TrackedSymbols:>{
+        Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+         Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+      DynamicModuleValues:>{},
+      UndoTrackedVariables:>{Typeset`open$$}],
+     BaseStyle->{"Deploy"},
+     DeleteWithContents->True,
+     Editable->False,
+     SelectWithContents->True]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Delta]p1", "=", 
+   RowBox[{"0.0010500471847445113", 
+    NamespaceBox["LinguisticAssistant",
+     DynamicModuleBox[{Typeset`query$$ = "seconds", Typeset`boxes$$ = 
+      TemplateBox[{
+        InterpretationBox["\[InvisibleSpace]", 1], "\"s\"", "seconds", 
+        "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
+      Typeset`allassumptions$$ = {{
+       "type" -> "Clash", "word" -> "seconds", "template" -> 
+        "Assuming \"seconds\" is a unit${separator}Use as ${desc} instead", 
+        "count" -> "2", "pulldown" -> "false", "default" -> 
+        "{\"C\", \"seconds\"} -> {\"Unit\", \"dflt\"}", 
+        "Values" -> {{
+          "name" -> "Unit", "desc" -> "a unit", "input" -> 
+           "{\"C\", \"seconds\"} -> {\"Unit\"}"}, {
+          "name" -> "Word", "desc" -> "a word", "input" -> 
+           "{\"C\", \"seconds\"} -> {\"Word\"}"}}}, {
+       "type" -> "Unit", "word" -> "seconds", "template" -> 
+        "Assuming seconds of time for \"seconds\"${separator}Use ${desc} \
+instead", "count" -> "2", "pulldown" -> "false", "default" -> 
+        "\"UnitClash\" -> {\"seconds\", {\"Seconds\", \"dflt\"}}", 
+        "Values" -> {{
+          "name" -> "Seconds", "desc" -> "seconds of time", "input" -> 
+           "\"UnitClash\" -> {\"seconds\", {\"Seconds\"}}"}, {
+          "name" -> "Arcseconds", "desc" -> "seconds of arc", "input" -> 
+           "\"UnitClash\" -> {\"seconds\", {\"Arcseconds\"}}"}}}}, 
+      Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+      Typeset`querystate$$ = {
+      "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+       2.2198113`7.797861051346671, "Messages" -> {}}}, 
+      DynamicBox[ToBoxes[
+        AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+         Dynamic[Typeset`query$$], 
+         Dynamic[Typeset`boxes$$], 
+         Dynamic[Typeset`allassumptions$$], 
+         Dynamic[Typeset`assumptions$$], 
+         Dynamic[Typeset`open$$], 
+         Dynamic[Typeset`querystate$$]], StandardForm],
+       ImageSizeCache->{83., {10.5, 17.5}},
+       TrackedSymbols:>{
+        Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+         Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+      DynamicModuleValues:>{},
+      UndoTrackedVariables:>{Typeset`open$$}],
+     BaseStyle->{"Deploy"},
+     DeleteWithContents->True,
+     Editable->False,
+     SelectWithContents->True]}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.852550905498633*^9, 3.852550914091527*^9}, {
+  3.8525510226312237`*^9, 3.8525510708440723`*^9}},
+ CellLabel->
+  "In[964]:=",ExpressionUUID->"387ec67e-a227-4200-8b42-8a3b3c0cb44e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"p1", "=", 
+  RowBox[{
+   RowBox[{"Around", "[", 
+    RowBox[{"pp1", ",", "\[Delta]p1"}], "]"}], "//", "TeXForm"}]}]], "Input",
+ CellChangeTimes->{{3.852551045211362*^9, 3.8525510798922453`*^9}},
+ CellLabel->
+  "In[968]:=",ExpressionUUID->"1e1210cf-3449-4f24-81fd-998dbaae2adc"],
+
+Cell["(1.3377\\pm 0.0011)\\text{s}", "Output",
+ CellChangeTimes->{{3.8525510514872694`*^9, 3.8525510802215123`*^9}},
+ CellLabel->
+  "Out[968]//TeXForm=",ExpressionUUID->"5c89d77d-6990-40bd-9824-277d6bc95b4e"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -7421,6 +7552,13 @@ Cell[318336, 7153, 191, 3, 35, "Text",ExpressionUUID->"a02b4810-9b1d-457c-abe8-6
 Cell[CellGroupData[{
 Cell[318552, 7160, 328, 8, 44, "Input",ExpressionUUID->"049a6523-f404-4b9d-89d3-7c37403a11c3"],
 Cell[318883, 7170, 274, 4, 43, "Output",ExpressionUUID->"b273240f-3df4-4f47-8ac8-b1888fe43fc8"]
+}, Open  ]],
+Cell[319172, 7177, 169, 3, 35, "Text",ExpressionUUID->"41cf006f-1342-486f-a5c8-6ec02f149e45"],
+Cell[319344, 7182, 163, 3, 35, "Text",ExpressionUUID->"83ea2d8d-e244-4d63-ba8e-9b881123b3b0"],
+Cell[319510, 7187, 5063, 102, 94, "Input",ExpressionUUID->"387ec67e-a227-4200-8b42-8a3b3c0cb44e"],
+Cell[CellGroupData[{
+Cell[324598, 7293, 301, 7, 44, "Input",ExpressionUUID->"1e1210cf-3449-4f24-81fd-998dbaae2adc"],
+Cell[324902, 7302, 208, 3, 43, "Output",ExpressionUUID->"5c89d77d-6990-40bd-9824-277d6bc95b4e"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
